@@ -1,4 +1,4 @@
-Hello GitHub!
+Hello GitHub!  
 Generate Confliction
 --Student Number--
 
