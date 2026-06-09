@@ -1,5 +1,5 @@
 Hello GitHub!  
-Generate Confliction
+Generate Confliction  
 --Student Number--
 
 20210519 한원석\
