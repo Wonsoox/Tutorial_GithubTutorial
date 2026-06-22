@@ -1,8 +1,3 @@
-Hello GitHub!  
-Generate Confliction  
---Student Number--
-
-20210519 한원석  
-20222323 김서윤 PR test. 
-20222084 이선우  
-20232424 최호빈
+LFS테스트중...
+용량큰에셋 -> LFS로 서버컴에 업로드
+개발 스크립트등 -> 깃허브로 업로드
