@@ -8,4 +8,5 @@ graph TD
 flowchart BT
     C --> D
     D --> F
+    G>목표] --> C
 ```
