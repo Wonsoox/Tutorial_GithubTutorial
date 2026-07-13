@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
     A[시작] --> B[끝]
-    B --->> C
-    C --->> A
+    B --->> C : HI
+    C --->> A : HI
 
 ```
