@@ -24,8 +24,7 @@ classDiagram
         +bool Alive
     }
     MissileLauncher <|--  ManPadsLauncher : 상속
- classDef Missile fill:#d4edda,stroke:#28a745,stroke-width:2px,color:#155724
-    classDef MissileLauncher fill:#f8d7da,stroke:#dc3545,stroke-width:2px,color:#721c24
+
 
 ```
 ```mermaid
