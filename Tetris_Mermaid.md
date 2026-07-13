@@ -19,7 +19,7 @@ classDiagram
         +int Weight
         +bool Alive
     }
-    ManPadsLauncher <|-- MissileLauncher : 상속
+    MissileLauncher <|--  ManPadsLauncher : 상속
 
 
 ```
