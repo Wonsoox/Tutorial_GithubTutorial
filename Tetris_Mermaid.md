@@ -16,3 +16,22 @@ flowchart BT
     D --> F
     G>목표] --> C
 ```
+```mermaid
+sequenceDiagram
+    participant U as 사용자
+    participant S as 서버
+    participant D as 데이터베이스
+
+    U->>S: 로그인 요청
+    S->>D: 사용자 정보 조회
+    D-->>S: 결과 반환
+    S-->>U: 로그인 성공 응답
+
+    alt 비밀번호 틀림
+        S-->>U: 에러 메시지
+    else 성공
+        S-->>U: 토큰 발급
+    end
+
+    Note over U,S: 이후 인증된 요청만 허용
+```
