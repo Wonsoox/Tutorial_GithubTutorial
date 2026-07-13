@@ -6,7 +6,7 @@ graph TD
 ```
 ```mermaid
 flowchart BT
-    subgraph 아국밥마렵네["국밥"]
+    subgraph GookBap
         BBB --> CCC
     C --> D
     D -- 순환 --> C
