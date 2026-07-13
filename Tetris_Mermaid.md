@@ -1,7 +1,8 @@
-%%{init: {'theme':'forest'}}%%
+
 
 
 ```mermaid
+%%{init: {'theme':'forest'}}%%
 graph TD
     A[시작] --> B[끝]
 
