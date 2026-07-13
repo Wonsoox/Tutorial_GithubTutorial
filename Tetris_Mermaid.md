@@ -7,6 +7,7 @@ graph TD
 ```mermaid
 flowchart BT
     C --> D
+    D -- 순환 --> C
     D --> F
     G>목표] --> C
 ```
