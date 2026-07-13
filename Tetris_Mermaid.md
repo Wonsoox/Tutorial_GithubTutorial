@@ -5,6 +5,25 @@ graph TD
 
 ```
 ```mermaid
+classDiagram
+    class Missle {
+        +String name
+        +int type
+        +PV() void
+    }
+    class MissileLauncher {
+        +Fire() void
+        +Lock() void
+    }
+    class ManPadsLauncher {
+        +int Weight
+        +bool Alive
+    }
+    ManPadsLauncher <|-- MissileLauncher : 상속
+
+
+```
+```mermaid
 flowchart BT
     subgraph GookBap
         BBB --> CCC
