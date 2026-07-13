@@ -8,6 +8,7 @@ graph TD
 flowchart BT
     C --> D
     D -- 순환 --> C
+    D -.-> F
     D --> F
     G>목표] --> C
 ```
